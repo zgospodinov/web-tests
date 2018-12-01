@@ -11,7 +11,7 @@ var events1 = [{
         'Title': 'Doctor appointment at 3:25pm.'
     }
 
-];
+]; 
 var settings1 = {
     Color: '#999', //(string - color) font color of whole calendar.
     LinkColor: '#333', //(string - color) font color of event titles.
@@ -23,7 +23,7 @@ var settings1 = {
     DatetimeLocation: '', //(string - element) where to display previously mentioned date, if not in default position.
     EventClick: test, //(function) a function that should instantiate on the click of any event. parameters passed in via data link attribute.
     EventTargetWholeDay: true, //(bool) clicking on the whole date will trigger event action, as opposed to just clicking on the title.
-    DisabledDays: [], //(array of numbers) days of the week to be slightly transparent. ie: [1,6] to fade Sunday and Saturday.
+    DisabledDays: [0,6], //(array of numbers) days of the week to be slightly transparent. ie: [1,6] to fade Sunday and Saturday.
 
 
 };
@@ -38,7 +38,7 @@ var settings2 = {
     DatetimeLocation: '', //(string - element) where to display previously mentioned date, if not in default position.
     EventClick: test, //(function) a function that should instantiate on the click of any event. parameters passed in via data link attribute.
     EventTargetWholeDay: true, //(bool) clicking on the whole date will trigger event action, as opposed to just clicking on the title.
-    DisabledDays: [], //(array of numbers) days of the week to be slightly transparent. ie: [1,6] to fade Sunday and Saturday.
+    DisabledDays: [0,6], //(array of numbers) days of the week to be slightly transparent. ie: [1,6] to fade Sunday and Saturday.
 
 
 };

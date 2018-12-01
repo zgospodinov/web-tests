@@ -118,6 +118,10 @@
   opacity: 0.5;
 }
 
+.cld-day.weekEnd{
+  color:red;
+}
+
 .cld-day.nextMonth,
 .cld-day.prevMonth {
   opacity: 0.45;

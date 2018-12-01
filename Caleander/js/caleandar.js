@@ -202,6 +202,7 @@ function createCalendar(calendar, element, adjuster) {
       for (var q = 0; q < calendar.Options.DisabledDays.length; q++) {
         if (d == calendar.Options.DisabledDays[q]) {
           day.className += " disableDay";
+          day.className += " weekEnd";
         }
       }
 
@@ -219,6 +220,7 @@ function createCalendar(calendar, element, adjuster) {
       for (var q = 0; q < calendar.Options.DisabledDays.length; q++) {
         if (d == calendar.Options.DisabledDays[q]) {
           day.className += " disableDay";
+          day.className += " weekEnd";
         }
       }
       var number = DayNumber(i + 1);
