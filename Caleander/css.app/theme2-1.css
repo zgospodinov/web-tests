@@ -115,7 +115,7 @@
 }
 
 .cld-day.disableDay {
-  opacity: 0.5;
+  /* opacity: 0.5; */
 }
 
 .cld-day.weekEnd{
@@ -124,7 +124,7 @@
 
 .cld-day.nextMonth,
 .cld-day.prevMonth {
-  opacity: 0.45;
+  opacity: 0.35;
 }
 
 .cld-number {
@@ -145,6 +145,10 @@
   border: 1px solid #ccc;
   border-radius: 5px;
   font-size: 12px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
 }
 
 .cld-number:hover .cld-title {
